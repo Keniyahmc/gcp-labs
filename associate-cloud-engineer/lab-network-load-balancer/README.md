@@ -1,54 +1,30 @@
-\# Lab: Network Load Balancer (NLB)
+# 🌐 Lab: Network Load Balancer (NLB)
 
+## Overview
+Set up a passthrough **Network Load Balancer (NLB)** on Google Cloud Platform using 3 Compute Engine VMs running Apache. A Layer 4 NLB routes traffic based on IP addresses and port numbers.
 
+## Objectives
+- ✅ Configure the default region and zone
+- ✅ Create 3 web server VMs with Apache installed
+- ✅ Configure a load balancing service
+- ✅ Create a target pool and forwarding rule
+- ✅ Send traffic and verify distribution across instances
 
-\## Overview
+## Key Commands Used
+```bash
+gcloud compute instances create
+gcloud compute firewall-rules create
+gcloud compute addresses create
+gcloud compute http-health-checks create
+gcloud compute target-pools create
+gcloud compute forwarding-rules create
+```
 
-Set up a passthrough Network Load Balancer on GCP using 3 Compute Engine VMs running Apache.
+## What I Learned
+- A Layer 4 NLB routes traffic based on IP/port — it does not inspect content
+- Target pools group backend instances that receive incoming traffic
+- Forwarding rules direct traffic from a static IP to a target pool
+- Health checks ensure only healthy instances receive traffic
 
-
-
-\## Objectives
-
-\- Set default region and zone
-
-\- Create 3 web server VMs with Apache
-
-\- Configure a load balancing service
-
-\- Create a target pool and forwarding rule
-
-\- Send traffic and verify distribution
-
-
-
-\## Key Commands Used
-
-\- gcloud compute instances create
-
-\- gcloud compute firewall-rules create
-
-\- gcloud compute addresses create
-
-\- gcloud compute target-pools create
-
-\- gcloud compute forwarding-rules create
-
-
-
-\## What I Learned
-
-\- How a Layer 4 NLB routes traffic based on IP/port (not content)
-
-\- How target pools group backend instances
-
-\- How forwarding rules direct traffic to a target pool
-
-\- How health checks keep the load balancer reliable
-
-
-
-\## Resources
-
-\- GCP NLB Docs: https://cloud.google.com/load-balancing/docs/network
-
+## Resources
+- [GCP Network Load Balancer Docs](https://cloud.google.com/load-balancing/docs/network)
