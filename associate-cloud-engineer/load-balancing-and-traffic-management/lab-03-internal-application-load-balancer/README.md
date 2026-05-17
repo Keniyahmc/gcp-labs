@@ -1,8 +1,7 @@
-\# 🔒 Lab 03: Use an Internal Application Load Balancer
+# 🔒 Lab 03: Use an Internal Application Load Balancer
 
 
-
-\## Overview
+## Overview
 
 Built a two-tier architecture using an Internal ALB. Backend VMs
 
@@ -12,21 +11,21 @@ frontend queries the internal service through the load balancer.
 
 
 
-\## Objectives
+## Objectives
 
-\- Create a Python backend prime number calculator
+- Create a Python backend prime number calculator
 
-\- Deploy backend VMs using a managed instance group
+- Deploy backend VMs using a managed instance group
 
-\- Set up an internal Application Load Balancer
+- Set up an internal Application Load Balancer
 
-\- Test the internal load balancer from inside the VPC
+- Test the internal load balancer from inside the VPC
 
-\- Create a public-facing frontend using the internal service
+- Create a public-facing frontend using the internal service
 
 
 
-\## Key Commands Used
+## Key Commands Used
 
 gcloud compute instance-templates create primecalc --no-address
 
@@ -42,21 +41,21 @@ gcloud compute instances create frontend
 
 
 
-\## What I Learned
+## What I Learned
 
-\- Internal ALBs have no public IP — only reachable inside the VPC
+- Internal ALBs have no public IP — only reachable inside the VPC
 
-\- Backend VMs with --no-address are more secure
+- Backend VMs with --no-address are more secure
 
-\- Managed instance groups automatically replace failed VMs
+- Managed instance groups automatically replace failed VMs
 
-\- Two-tier architecture separates public and private services
+- Two-tier architecture separates public and private services
 
 
 
-\## Challenges \& How I Solved Them
+## Challenges & How I Solved Them
 
-\- Forgot to SSH into the test instance before running curl commands.
+- Forgot to SSH into the test instance before running curl commands.
 
 &#x20; Ran curl from Cloud Shell instead of inside the test VM which
 
@@ -68,9 +67,9 @@ gcloud compute instances create frontend
 
 
 
-\## Resources
+## Resources
 
-\- GCP Internal ALB Docs: https://cloud.google.com/load-balancing/docs/internal
+- GCP Internal ALB Docs: https://cloud.google.com/load-balancing/docs/internal
 
-\- Lab ID: GSP041
+- Lab ID: GSP041
 
