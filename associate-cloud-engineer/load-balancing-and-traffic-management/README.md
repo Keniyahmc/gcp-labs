@@ -1,44 +1,22 @@
-\# 🏅 Load Balancing and Traffic Management
+# 🏅 Load Balancing and Traffic Management
 
-
-
-\## About
-
+## About
 Hands-on labs covering network and application load balancing
-
 on Google Cloud using Compute Engine.
 
-
-
-\## Labs
-
+## Labs
 | # | Lab | Status |
-
 |---|-----|--------|
-
 | 1 | Set Up Network Load Balancers | ✅ Complete |
+| 2 | Set Up Application Load Balancers | ✅ Complete |
+| 3 | Use an Internal Application Load Balancer | ✅ Complete |
+| 4 | Challenge Lab | ✅ Complete |
 
-| 2 | Set Up Application Load Balancers | 🔄 Not Started |
+## Skills Demonstrated
+- Configuring network load balancers
+- Configuring application load balancers
+- Configuring internal application load balancers
+- Traffic distribution and forwarding rules
 
-| 3 | Use an Internal Application Load Balancer | 🔄 Not Started |
-
-| 4 | Challenge Lab | 🔄 Not Started |
-
-
-
-\## Skills Demonstrated
-
-\- Configuring network load balancers
-
-\- Configuring application load balancers
-
-\- Configuring internal application load balancers
-
-\- Traffic distribution and forwarding rules
-
-
-
-\## Badge
-
-\[ Add badge image here once earned ]
-
+## Badge
+[🏅 View My Badge](https://www.credly.com/badges/6cb8f1d6-ca7e-4f04-baa1-4cbb5e1e772d/public_url)
