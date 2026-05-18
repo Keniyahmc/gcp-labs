@@ -1,13 +1,8 @@
 # GCP Labs
 
-Hands-on Google Cloud projects from the Google GEAR Get Certified
-program and personal projects. Working toward my Associate Cloud
+Hands-on Google Cloud projects from my certification program
+and personal projects. Working toward my Associate Cloud
 Engineer (ACE) certification.
-
-## Certification Program
-Google GEAR Get Certified — Associate Cloud Engineer Track
-A no-cost 9-week guided cohort with Google-certified instructors
-and hands-on labs.
 
 ## Skill Badges
 | Badge | Labs | Status |
@@ -20,7 +15,9 @@ and hands-on labs.
 | Build Infrastructure with Terraform | 5 | 🔄 Not Started |
 
 ## Personal Projects
-- Coming soon
+| Project | Description | Status |
+| --- | --- | --- |
+| Coming soon | | |
 
 ## Skills Demonstrated
 - Network and Application Load Balancing
