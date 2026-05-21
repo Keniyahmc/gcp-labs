@@ -14,13 +14,26 @@ using gcloud storage commands in Cloud Shell instead of the console.
 - ✅ Remove public access from an object
 
 ## Key Commands Used
+
+### Bucket Management
 gcloud storage buckets create gs://[BUCKET-NAME]
+
+### Upload and Download
 gcloud storage cp ada.jpg gs://[BUCKET-NAME]
 gcloud storage cp -r gs://[BUCKET-NAME]/ada.jpg .
+
+### List and Inspect
 gcloud storage ls gs://[BUCKET-NAME]
 gcloud storage ls -l gs://[BUCKET-NAME]/ada.jpg
-gcloud storage objects update --add-acl-grant=entity=allUsers,role=READER
-gcloud storage objects update --remove-acl-grant=allUsers
+
+### Public Access
+gcloud storage objects update gs://[BUCKET-NAME]/ada.jpg \
+  --add-acl-grant=entity=allUsers,role=READER
+
+gcloud storage objects update gs://[BUCKET-NAME]/ada.jpg \
+  --remove-acl-grant=allUsers
+
+### Delete
 gcloud storage rm gs://[BUCKET-NAME]/ada.jpg
 
 ## What I Learned
