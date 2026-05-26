@@ -26,4 +26,4 @@ using Cloud Storage, IAM, Cloud Functions, and Pub/Sub.
 - Pub/Sub messaging and event handling
 
 ## Badge
-[(https://www.credly.com/badges/795179b1-0161-49c0-95fa-f36825b14a23/public_url)]
+[🏅 View My Badge](https://www.credly.com/badges/795179b1-0161-49c0-95fa-f36825b14a23/public_url)
