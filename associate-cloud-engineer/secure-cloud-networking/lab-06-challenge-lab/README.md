@@ -22,7 +22,25 @@ secure bastion host architecture using IAP.
 - Zero trust means verifying identity before any network access
 
 ## Challenges & How I Solved Them
-- [Add your challenges here]
+- Overly permissive firewall rules: The default open-access rule
+  was allowing unrestricted traffic. Removed it and replaced with
+  specific rules scoped to correct source ranges and target tags.
+
+- IAP SSH connection failing with Error 4003: The browser SSH
+  button was trying to connect directly instead of through IAP.
+  Fixed by using the Open in browser window with IAP tunnel
+  option from the SSH dropdown menu on the bastion VM.
+
+- Network tags not applied: Firewall rules were correctly
+  configured but not taking effect because the network tags
+  were not saved on the VMs. Fixed by editing each VM and
+  ensuring the tags were properly committed.
+
+- SSHing from bastion to juice-shop: A plain ssh internal-ip
+  command was not reliable from inside the bastion. Fixed by
+  using gcloud compute ssh juice-shop --zone=us-west1-c
+  --internal-ip to force the connection through the internal
+  network correctly.
 
 ## Resources
 - GCP IAP Docs: https://cloud.google.com/iap/docs
