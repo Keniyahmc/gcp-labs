@@ -8,8 +8,8 @@ Engineer (ACE) certification.
 | Badge | Labs | Status |
 | --- | --- | --- |
 | Load Balancing and Traffic Management | 4 | ✅ Complete |
-| App Dev Environment Setup | 10 | 🔄 Not Started |
-| Build a Secure Google Cloud Network | 6 | 🔄 Not Started |
+| Cloud Storage and IAM Foundations | 10 | ✅ Complete |
+| Build a Secure Google Cloud Network | 6 | 🔄 In Progress |
 | Cloud Security Fundamentals | 8 | 🔄 Not Started |
 | Develop Your Google Cloud Network | 6 | 🔄 Not Started |
 | Build Infrastructure with Terraform | 5 | 🔄 Not Started |
@@ -21,6 +21,10 @@ Engineer (ACE) certification.
 
 ## Skills Demonstrated
 - Network and Application Load Balancing
-- Compute Engine and VPC Networking
+- Cloud Storage and IAM
+- VPC Networking and Firewall Rules
+- Identity-Aware Proxy (IAP)
+- Cloud Functions and Pub/Sub
+- Compute Engine and Managed Instance Groups
 - gcloud CLI and Cloud Shell
 - Git and GitHub documentation
