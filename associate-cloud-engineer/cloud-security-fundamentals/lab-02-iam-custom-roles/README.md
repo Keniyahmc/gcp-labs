@@ -1,4 +1,4 @@
-Coming soon# 🛠️ Lab 02: IAM Custom Roles
+# 🛠️ Lab 02: IAM Custom Roles
 
 ## Overview
 Created, updated, disabled, deleted, and restored custom IAM
