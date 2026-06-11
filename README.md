@@ -10,8 +10,8 @@ Engineer (ACE) certification.
 | Load Balancing and Traffic Management | 4 | ✅ Complete |
 | Cloud Storage and IAM Foundations | 10 | ✅ Complete |
 | Build a Secure Google Cloud Network | 6 | ✅ Complete |
-| Cloud Security Fundamentals | 8 | 🔄 Not Started |
-| Develop Your Google Cloud Network | 6 | 🔄 Not Started |
+| Cloud Security Fundamentals | 8 | ✅ Complete |
+| Develop Your Google Cloud Network | 6 | ✅ Complete |
 | Build Infrastructure with Terraform | 5 | 🔄 Not Started |
 
 ## Personal Projects
@@ -27,6 +27,9 @@ Engineer (ACE) certification.
 - Cloud Armor DDoS Protection
 - Cloud Functions and Pub/Sub
 - Compute Engine and Managed Instance Groups
+- SQL with BigQuery and Cloud SQL
+- Kubernetes Deployment Strategies
+- Cloud Monitoring and Alerting
 - gcloud CLI and Cloud Shell
 - Git and GitHub documentation
 
