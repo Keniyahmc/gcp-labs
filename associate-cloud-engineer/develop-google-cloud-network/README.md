@@ -24,4 +24,4 @@ SQL, Compute Engine, and Kubernetes.
 - WordPress deployment on Kubernetes with Cloud SQL backend
 
 ## Badge
-[https://www.credly.com/badges/88c549f4-e3fd-4b51-9c5d-b058d5e9a379/public_url]
+[🏅 View My Badge](https://www.credly.com/badges/88c549f4-e3fd-4b51-9c5d-b058d5e9a379/public_url)
