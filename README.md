@@ -1,8 +1,16 @@
 # GCP Labs
 
-Hands-on Google Cloud projects from my certification program
-and personal projects. Working toward my Associate Cloud
-Engineer (ACE) certification.
+Hands-on Google Cloud labs and projects completed as part of
+the Google GEAR Get Certified program, working toward my
+Associate Cloud Engineer (ACE) certification. Every lab in
+this repository was completed in a live Google Cloud environment
+with real infrastructure, not simulations.
+
+This repository documents my technical progression across
+networking, security, Kubernetes, SQL, monitoring, and
+Infrastructure as Code with Terraform. Each badge folder
+contains lab documentation, commands used, screenshots, and
+key takeaways from every hands-on lab completed.
 
 ## Skill Badges
 | Badge | Labs | Status |
