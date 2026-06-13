@@ -12,12 +12,7 @@ Engineer (ACE) certification.
 | Build a Secure Google Cloud Network | 6 | ✅ Complete |
 | Cloud Security Fundamentals | 8 | ✅ Complete |
 | Develop Your Google Cloud Network | 6 | ✅ Complete |
-| Build Infrastructure with Terraform | 5 | 🔄 Not Started |
-
-## Personal Projects
-| Project | Description | Status |
-| --- | --- | --- |
-| LAMP Stack Deployment | Deployed a full LAMP stack on GCP using Cloud Marketplace | 🔄 In Progress |
+| Build Infrastructure with Terraform | 5 | ✅ Complete |
 
 ## Skills Demonstrated
 - Network and Application Load Balancing
@@ -30,6 +25,8 @@ Engineer (ACE) certification.
 - SQL with BigQuery and Cloud SQL
 - Kubernetes Deployment Strategies
 - Cloud Monitoring and Alerting
+- Infrastructure as Code with Terraform
+- Terraform Modules and Remote State Management
 - gcloud CLI and Cloud Shell
 - Git and GitHub documentation
 
